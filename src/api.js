@@ -1,6 +1,6 @@
 import store from './store'
 import bookmarks from './bookmarks'
-const BASE_URL = 'https://thinkful-list-api.herokuapp.com/brahyt'
+const BASE_URL = 'https://thinkful-list-api.herokuapp.com/justinF/bookmarks1'
 
 const apiFetch = function(url, method, newData){
   let error = ''

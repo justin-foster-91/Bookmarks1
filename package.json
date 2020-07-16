@@ -1,7 +1,7 @@
 {
-  "name": "bookmark-app-danielb",
+  "name": "bookmark-app-justinf",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://github.com/justin-foster-91/Bookmarks1.git",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
@@ -9,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thinkful-ei-heron/bookmark-app-danielb.git"
+    "url": "git+https://github.com/justin-foster-91/Bookmarks1.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thinkful-ei-heron/bookmark-app-danielb/issues"
+    "url": "https://github.com/justin-foster-91/Bookmarks1.git/issues"
   },
-  "homepage": "https://github.com/thinkful-ei-heron/bookmark-app-danielb#readme",
+  "homepage": "https://github.com/justin-foster-91/Bookmarks1#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {

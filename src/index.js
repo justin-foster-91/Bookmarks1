@@ -1,6 +1,5 @@
 import $ from 'jquery'
 import 'normalize.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css'
 import store from './store'
 import bookmarks from './bookmarks'
@@ -17,10 +16,5 @@ const runApp = function(){
   bookmarks.render()
   bookmarks.clickOnNew()
   bookmarks.clickOnSubmit()
-  bookmarks.clickOnDelete()  
-  bookmarks.clickOnUpdate()
-	bookmarks.clickToExpand()
-  bookmarks.filterRatings()
-//$('.output').html(bookmarks.generateList(store.bookmarks))
 }
 $(runApp)
