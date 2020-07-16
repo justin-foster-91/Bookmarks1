@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+
+body {
+  font-family: 'Asap', sans-serif;
+}
+
+main {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  text-align: left;
+  margin-bottom: 1vh;
+}
+
+.card-title {
+  margin-bottom: 0px;
+}
+
+
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;       /* Remove default arrow */   /* Add custom arrow */
+	display: inline-block;
+	font-size: 1rem;
+	padding: .375rem .75rem;
+	color: white;
+	background-color: gray;
+  vertical-align: middle;
+	height: 38px;
+	border: none;
+	border-radius: .25rem;
+		transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+			transition-property: color, background-color, border-color, box-shadow;
+			transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+			transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+			transition-delay: 0s, 0s, 0s, 0s;
+}
+
+select:hover {
+	background-color: #6b6b6b;
+}
